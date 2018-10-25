@@ -1,0 +1,132 @@
+/* GENERAL */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.wrapper{
+     width: 940px;
+     margin: 0 auto;
+     padding: 0 10px;
+}
+body{
+    font-size: 15px;
+}
+
+ul{
+    list-style: none;
+}
+
+h1{
+    font-family: 'Acme', sans-serif;
+    font-size: 45px;
+}
+
+h2{
+    font-family: 'Acme', sans-serif;
+    font-size: 35px;
+}
+
+a{
+    text-decoration: none;
+    font-family: 'Acme', sans-serif;
+    color: black;
+}
+
+p{
+    font-size: 15px;
+    font-family: sans-serif;
+    margin: 0 20px 0 20px;
+    text-align: justify;
+}
+
+section{
+    padding: 45px 0 80px 0; 
+}
+
+section .header{
+    text-align: center;
+    margin-bottom: 15px;
+    margin-top: 10px;
+}
+
+.yellow-divider{
+    width: 100px;
+    height: 2px;
+    background: yellow;
+    margin: 0 auto;
+}
+
+
+/* HEADER */
+
+header{
+    height: 120px;
+    background-color: yellow;
+}
+
+header h1{
+    float: left;
+    margin-top: 32px;
+}
+.top-menu{
+    float: right;
+    margin-top: 50px;
+}
+
+.top-menu li {
+    display: inline-block;
+    margin-right: 5px;
+}
+
+.top-menu li a {
+    text-transform: uppercase;
+    
+}
+
+.top-menu li a:hover{
+    color: blue;
+}
+
+/* QUI SOMMES NOUS */
+
+.histoire{
+    display: flex;
+    justify-content: left;
+}
+
+.histoire img{
+    width: 400px;
+    height: 250px;;
+    border-radius: 10px;
+    margin: 0 20px 0 20px;
+}
+
+/* QUE FAISONS NOUS ? */
+
+.objectif p{
+    text-align: center;
+}
+
+.objectif iframe{
+    margin-bottom: 15px;
+}
+
+/* AUTRES ASSOCIATIONS */
+
+.associations{
+    width: 960px;
+    margin: 0 auto;
+}
+
+.associations img{
+    width: 300px;
+    text-align: center;
+}
+
+/* CITATION */
+
+.item-citation{
+    text-align: center;
+    font-size: 20px;
+}
